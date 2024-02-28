@@ -43,7 +43,7 @@ namespace Task3._4
                 fact *= i;
             }
             Console.WriteLine(fact);
-
+            
         }
     }
 }
