@@ -8,9 +8,9 @@ namespace TaskList_1._3
 {
     public class Book
     {
-        public string Name { get; set; }
-        public string Author { get; set; }
-        public int  YearOfIssue { get; set; }
+        private string Name { get; set; }
+        private string Author { get; set; }
+        private int YearOfIssue { get; set; }
 
         public Book(string name , string author, int yearOfIssue)
         {
